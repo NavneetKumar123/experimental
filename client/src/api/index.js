@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'https://experimental-api.vercel.app/',
+    baseURL: 'https://experimental-lv1h9hgy6-navneetkumar123.vercel.app/',
 })
 
 export const register = payload => api.post(`/user/register`, payload)

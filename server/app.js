@@ -4,6 +4,7 @@ dotenv.config();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const { createProxyMiddleware } = require('http-proxy-middleware');
 const {
   authRoutes,
   categoryRoutes,
